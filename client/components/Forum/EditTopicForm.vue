@@ -22,7 +22,7 @@ const editTopic = async () => {
 
 <template>
     <div calss="navigation">
-      <img @click="router.push({ name: 'Topic/' + props.topic._id })" src="/assets/arrow.png" alt="arrow" />
+      <img @click="router.push({ name: 'Topic/' + props.topic._id })" src="./assets/images/back.svg" alt="arrow" />
     </div>
     <form class="create-form" @submit.prevent="editTopic">
         <div class="inputspace">
